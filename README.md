@@ -50,9 +50,8 @@ Converts raw NOAA/FEMA metadata into:
 ## API Keys
 
 - **Mistral**: Required for full CrewAI mode and Safety Chat. Free tier at [console.mistral.ai](https://console.mistral.ai)
-- **NOAA/FEMA**: No key required (public APIs). Falls back to mock data if rate-limited.
-
+- **NOAA/FEMA**: No key required (public APIs).
+  
 ## Run Modes
 
-- **Demo mode**: No API key needed. Uses real NOAA/FEMA APIs with mock fallback. All tools run.
 - **Full CrewAI mode**: Requires Mistral key. Runs complete hierarchical agent workflow.
