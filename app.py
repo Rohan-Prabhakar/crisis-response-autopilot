@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 # ── Config ────────────────────────────────────────────────────────────────
-MISTRAL_API_KEY = ""
+MISTRAL_API_KEY = st.secrets["MISTRAL_API_KEY"]
 # ─────────────────────────────────────────────────────────────────────────
 
 st.set_page_config(
